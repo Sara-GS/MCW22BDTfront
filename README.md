@@ -20,5 +20,12 @@ Ponte en el papel de que el Barcelona Digital Talent te ha contratado para desar
 
 ✅ Task 5 → Una vista que permita ver todo el perfil de user con los datos anteriores
 
-####
-#####
+#### Stack
+
+HTML, CSS, Bootstrap, Javascript
+
+No necesita instalación específica de nada.
+
+##### Copywrite
+
+Autora Sara González Sánchez
