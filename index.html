@@ -51,7 +51,7 @@
             
            
             
-             <label for="job">Job Role:</label>
+             <label for="job">Puesto de trabajo:</label>
               <select id="job" name="user_job">
                 <optgroup label="Web">
                   <option value="frontend_developer">Front-End Developer</option>
@@ -71,16 +71,21 @@
                   <option value="freelancer">Freelancer</option>
                 </optgroup>
               </select>
-              
-              <label>Interests:</label>
-              <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Development</label><br>
-              <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
-              <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label>
-              
+              <div>
+              <label>Intereses:</label>
+              <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Desarrollo</label><br>
+              <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Diseño UX/UI</label><br>
+              <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Emprendedor</label><br>
+            <div>
+              <label>Habilidades:</label>
+              <input type="checkbox" id="lider" value="interest_lider" name="user_lider"><label class="light" for="lider">Liderazgo</label><br>
+              <input type="checkbox" id="team" value="interest_team" name="user_team"><label class="light" for="team">Trabajo en equipo</label><br>
+              <input type="checkbox" id="proact" value="interest_proact" name="user_proact"><label class="light" for="proact">Proactividad</label>
+            </div>
              </fieldset>
-            <a href="/profile.html" target="_blank">  
+             
             <button>Confirmar</button>
-            </a>
+            <a href="/profile.html" target="_blank">Ver perfil </a>
         
             
            </form>
